@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+.signupForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.signupForm h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.signupForm p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.signupForm input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.signupForm button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: darkgray;
+}
+
+.signupForm button:hover {
+    color: crimson;
+}
